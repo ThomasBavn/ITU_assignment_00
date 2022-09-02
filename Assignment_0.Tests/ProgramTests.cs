@@ -5,12 +5,11 @@ public class UnitTest1
     [Fact]
     public void Main_Should_Print_Hello_World()
     {
-// Arrange
+        // Arrange
         using var writer = new StringWriter();
         Console.SetOut(writer);
 
          // Act
-        // var program = Assembly.Load(nameof(Program));
         Program.Main(Array.Empty<string>());
         // program.EntryPoint?.Invoke(null, new[] { Array.Empty<string>() });
 
