@@ -3,7 +3,7 @@ namespace Assignment_0.Tests;
 public class UnitTest1
 {
     [Fact]
-    public void Test1()
+    public void Main_()
     {
        
     }
