@@ -3,6 +3,6 @@
 public class Program
 {
     private static void main(string[] args){
-       throw new NotImplementedException(); 
+        Console.WriteLine("");
     }
 }
